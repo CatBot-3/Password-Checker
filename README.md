@@ -3,7 +3,7 @@
 The Password Game (C)
 A small C program that validates passwords against a set of rules and provides an optional helper to construct a valid password from a plain word.
 
-#Overview
+## Overview
 A simplified version of “The Password Game,” validating candidate passwords against the following checks:
 
 check_length: length ≥ 5
@@ -26,10 +26,10 @@ password_help(in_str, out_str): build a valid password containing in_str unmodif
 
 ======================
 
-#Set I/O Command Guide:
+# Set I/O Command Guide:
 ======================
 
-##SYNTAX:
+## SYNTAX:
 ------
 
 <set id> - An integer between 0 and 1, which specifies a Set
@@ -41,7 +41,7 @@ password_help(in_str, out_str): build a valid password containing in_str unmodif
 <capacity> - A single integer number
 
 
-##COMMANDS:
+## COMMANDS:
 --------
 
 n <set id> <capacity>
