@@ -24,10 +24,8 @@ check_palindrome: palindrome ignoring non-alphanumerics and case
 
 password_help(in_str, out_str): build a valid password containing in_str unmodified
 
-======================
 
 # Set I/O Command Guide:
-======================
 
 ## SYNTAX:
 ------
