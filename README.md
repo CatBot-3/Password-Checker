@@ -24,27 +24,7 @@ check_palindrome: palindrome ignoring non-alphanumerics and case
 
 password_help(in_str, out_str): build a valid password containing in_str unmodified
 
-
-An interactive test harness (in main.c) lets you:
-
-Enter c to test a candidate password,
-Enter h to generate a valid password from a plain word,
-Enter e to exit.
-Constraints and Rules
-Allowed string.h functions: strlen, strcmp, strcpy, strcat only (as per Section 5 materials).
-Input assumptions for all predicates:
-Password strings are valid, null-terminated C strings with no whitespace.
-Palindrome rule ignores:
-Non-alphanumeric characters
-Letter casing (case-insensitive comparison)
-password_help:
-in_str: alphabetic only (A–Z, a–z), length ≤ 30 (excluding null)
-out_str: points to a buffer large enough for the result (assume ~100 chars)
-Must include in_str as an uninterrupted substring (unchanged), and overall satisfy all checks
-Must not mutate in_str
-ASCII-only (no Unicode)
-
-
+======================
 
 #Set I/O Command Guide:
 ======================
